@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on LewX的个人博客</title>
+    <link>http://example.org/post/</link>
+    <description>Recent content in Posts on LewX的个人博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2021. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 26 Oct 2021 00:04:56 +0800</lastBuildDate><atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Tutorial</title>
+      <link>http://example.org/post/hugo-tutorial/</link>
+      <pubDate>Tue, 26 Oct 2021 00:04:56 +0800</pubDate>
+      
+      <guid>http://example.org/post/hugo-tutorial/</guid>
+      <description>1 安装Hugo   打开一个终端 Terminal，输入与操作系统对应的 Hugo 安装命令
+brew install hugo
+  安装完成后，输入以下命令来确认
+hugo version
+  2 新建网站   进入你想存放 Hugo 网站文件夹的目录，如
+cd ~/Documents
+  执行以下命令新建一个 Hugo 网站
+hugo new site myblog #myblog是网站文件夹名
+  选择主题
+打开 https://themes.gohugo.io 页面，选择一个你喜欢的主题，如blackburn
+  将选择的主题clone至本地
+#进入网站目录 cd ~/Documents/myblog #创建&amp;quot;themes&amp;quot;目录 mkdir -p themes #进入&amp;quot;themes&amp;quot;目录 cd themes #将blackburn主题克隆至&amp;quot;blackburn&amp;quot;目录 git clone https://github.com/yoshiharuyamashita/blackburn.git blackburn   编辑配置文件
+cd ~/Documents/myblog echo theme = \&amp;quot;blackburn\&amp;quot; &amp;gt;&amp;gt; config.</description>
+    </item>
+    
+    <item>
+      <title>Effective C&#43;&#43; 笔记</title>
+      <link>http://example.org/post/blog/</link>
+      <pubDate>Sat, 23 Oct 2021 23:39:06 +0800</pubDate>
+      
+      <guid>http://example.org/post/blog/</guid>
+      <description>Effective C++ </description>
+    </item>
+    
+  </channel>
+</rss>
